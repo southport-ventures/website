@@ -1,0 +1,59 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #333c45;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+input, textarea { display: block;
+  width: 100%;
+  border-radius: 0.2em;
+  margin-bottom: 0.75em;
+  box-shadow: none;
+  -webkit-appearance: none;
+  border: 1px solid #ccc;
+  padding: 0.25em 0.5em;
+}
+
+button {
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  color: #E15F36;
+  border: 1px solid #E15F36;
+  padding: 0.25em 1em;
+  border-radius: 5em;
+  transition: background 200ms ease-in-out;
+}
+
+button:hover {
+  color: #fff;
+  background: #E15F36;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #E15F36;
+}
+
+a:hover {
+  color: #07A670; /* #14CC8E darkened 10%, saturated 10% */
+}
+
+::selection {
+  background: #B4F8E1;
+}
