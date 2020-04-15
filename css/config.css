@@ -1,5 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Volkhov', serif; */
   color: #333c45;
 }
 
@@ -7,7 +8,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Volkhov', serif;
 }
 
 label {
@@ -51,9 +53,9 @@ a {
 }
 
 a:hover {
-  color: #07A670; /* #14CC8E darkened 10%, saturated 10% */
+  color: #E15F36;
 }
 
 ::selection {
-  background: #B4F8E1;
+  background: #E15F36;
 }

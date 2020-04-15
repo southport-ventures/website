@@ -11,6 +11,10 @@
   padding-right: 20px;
 }
 
+.frame--spacer {
+  margin: 6vw auto 6vw;
+}
+
 /* Nav
  *****************/
 .header__logo {
@@ -140,6 +144,10 @@
   background-color: #FFF;
 }
 
+.hero-text--vision:before {
+  margin-bottom: 0.75em;
+}
+
 .hero-text--vision:after {
   margin-top: 0.75em;
 }
@@ -164,6 +172,8 @@
 
 .highlight-text--vision {
   color: #FFF;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .org-members {
