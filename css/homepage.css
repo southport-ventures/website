@@ -195,11 +195,17 @@
 }
 
 .lede {
-  margin: 2em auto 0;
-  max-width: 60%;
-  text-align: center;
+  max-width: 80%;
+  margin-top: 3em;
+  margin-bottom: 3em;
   font-size: 110%;
   line-height: 1.6;
+}
+
+.lede--centered {
+  max-width: 60%;
+  margin: 3em auto 0;
+  text-align: center;
 }
 
 .footer {
