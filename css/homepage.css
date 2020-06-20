@@ -15,8 +15,6 @@
   margin: 6vw auto 6vw;
 }
 
-/* Nav
- *****************/
 .header__logo {
   display: flex;
   flex: 4;
@@ -25,6 +23,10 @@
   line-height: 1em;
   text-decoration: none;
   font-family: 'Volkhov', serif;
+}
+
+.header__logo:hover {
+  color: #333c45;
 }
 
 .header__nav {
@@ -46,7 +48,7 @@
 }
 
 .nav__item__link {
-  color: #E15F36;
+  color: #333C45;
   text-decoration: none;
   transition: all 200ms ease-in-out;
   position: relative;
@@ -62,7 +64,7 @@
   opacity: 0;
   height: 4px;
   border-radius: 2px;
-  background-color: #E15F36;
+  background-color: #FFD966;
   transition: all 200ms ease-in-out;
 }
 
@@ -71,21 +73,33 @@
 }
 
 .nav__item__link:hover, .simple-link:hover {
-  color: #E15F36;
+  color: #546271;
+  text-decoration: none;
 }
 
 .nav__item__link:hover:after {
   opacity: 1;
 }
 
-/* Mission
- *****************/
-.mission-section {
+.frame--mission-spacer {
   margin: 8vw auto 15vw;
 }
 
+.frame--section-spacer {
+  margin: 15vw auto 15vw;
+}
+
 .mission__hero__accent {
-  color: #E15F36;
+  display: inline-block;
+}
+
+.mission__hero__accent:after {
+  content: "";
+  display: block;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #FFD966;
+  margin-top: 0.1em;
 }
 
 .section {
@@ -109,7 +123,7 @@
   width: 30%;
   height: 4px;
   border-radius: 2px;
-  background-color: #E15F36;
+  background-color: #FFD966;
   margin-top: 0.25em;
 }
 
@@ -138,7 +152,7 @@
   width: 50%;
   height: 4px;
   border-radius: 2px;
-  background-color: #FFF;
+  background-color: #FFD966;
 }
 
 .hero-text--vision:before {
@@ -149,18 +163,20 @@
   margin-top: 0.75em;
 }
 
-/* About
- *****************/
 .vision-section {
-  background: #E15F36;
+  background: #333c45;
   text-align: center;
   color: #FFF;
   padding: 6vw 0 8vw;
   margin: 3vw 0;
 }
 
+.focus-section {
+  text-align: center;
+}
+
 .highlight-text {
-  color: #E15F36;
+  color: #333C45;
 }
 
 .highlight-text--small {
@@ -170,9 +186,20 @@
 }
 
 .highlight-text--vision {
-  color: #FFF;
   font-size: 2rem;
   margin-bottom: 2rem;
+}
+
+.highlight-text--vision--light {
+  color: #FFF;
+}
+
+.lede {
+  margin: 2em auto 0;
+  max-width: 60%;
+  text-align: center;
+  font-size: 110%;
+  line-height: 1.6;
 }
 
 .footer {
@@ -220,16 +247,8 @@
   .hero-image {
     width: 100%;
   }
-
-  .donate__amazon__buttons {
-    display: block;
-    margin-bottom: 1em;
-  }
 }
 
-
-/* Animations
- *****************/
 .animated {
   animation-duration: 700ms;
   animation-fill-mode: both;
