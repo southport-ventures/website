@@ -2,6 +2,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   color: #333c45;
   font-weight: 300;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -17,10 +18,7 @@ label {
 
 input, textarea { display: block;
   width: 100%;
-  border-radius: 0.2em;
-  margin-bottom: 0.75em;
-  box-shadow: none;
-  -webkit-appearance: none;
+  border-radius: 0.2em; margin-bottom: 0.75em; box-shadow: none; -webkit-appearance: none;
   border: 1px solid #ccc;
   padding: 0.25em 0.5em;
 }
@@ -29,8 +27,8 @@ button {
   -webkit-appearance: none;
   border: 0;
   background: transparent;
-  color: #E15F36;
-  border: 1px solid #E15F36;
+  color: #333C45;
+  border: 1px solid #333C45;
   padding: 0.25em 1em;
   border-radius: 5em;
   transition: background 200ms ease-in-out;
@@ -38,7 +36,7 @@ button {
 
 button:hover {
   color: #fff;
-  background: #E15F36;
+  background: #333C45;
 }
 
 button:active,
@@ -48,13 +46,14 @@ button:focus {
 
 a {
   text-decoration: none;
-  color: #E15F36;
+  color: #333C45;
 }
 
 a:hover {
-  color: #E15F36;
+  color: #546271;
+  text-decoration: underline;
 }
 
 ::selection {
-  background:  #f5ccbf;
+  background:  #FFD966;
 }
