@@ -18,11 +18,12 @@
 .header__logo {
   display: flex;
   flex: 4;
+  font-family: 'Volkhov', serif;
   font-size: 100%;
   color: #333c45;
   line-height: 1em;
   text-decoration: none;
-  font-family: 'Volkhov', serif;
+  white-space: nowrap;
 }
 
 .header__logo:hover {
@@ -53,6 +54,7 @@
   text-decoration: none;
   transition: all 200ms ease-in-out;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav__item__link:after {
@@ -221,6 +223,16 @@
   .lede {
     max-width: 75%;
   }
+
+  .header {
+    padding-top: 1em;
+    display: block;
+  }
+
+  .nav {
+    justify-content: flex-start;
+  }
+
 }
 
 
@@ -231,17 +243,8 @@
     font-size: 85%;
   }
 
-  .header {
-    padding-top: 1em;
-    display: block;
-  }
-
   .header__nav {
     margin-top: 1em;
-  }
-
-  .nav {
-    justify-content: flex-start;
   }
 
   .nav__item:nth-of-type(n+2) {
