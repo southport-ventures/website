@@ -27,6 +27,7 @@
 
 .header__logo:hover {
   color: #333c45;
+  text-decoration: none;
 }
 
 .header__nav {
@@ -86,7 +87,7 @@
 }
 
 .frame--section-spacer {
-  margin: 15vw auto 15vw;
+  margin: 13vw auto 15vw;
 }
 
 .mission__hero__accent {
@@ -195,11 +196,11 @@
 }
 
 .lede {
-  max-width: 80%;
+  max-width: 60%;
   margin-top: 3em;
   margin-bottom: 3em;
-  font-size: 110%;
-  line-height: 1.6;
+  font-size: 120%;
+  line-height: 1.7;
 }
 
 .lede--centered {
@@ -211,6 +212,15 @@
 .footer {
   margin: 10vw auto;
   text-align: center;
+}
+
+
+/* Tablet Styles
+ *****************/
+ @media only screen and (max-width: 1020px) {
+  .lede {
+    max-width: 75%;
+  }
 }
 
 
@@ -253,27 +263,12 @@
   .hero-image {
     width: 100%;
   }
-}
 
-.animated {
-  animation-duration: 700ms;
-  animation-fill-mode: both;
-}
-
-@keyframes slideInUp {
-  from {
-    transform: translate3d(0, 50%, 0);
-    visibility: visible;
-    opacity: 0;
+  .lede {
+    max-width: 100%;
   }
 
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
+  .lede--centered {
+    max-width: 100%;
   }
-}
-
-.slideInUp {
-  animation-name: slideInUp;
-  animation-timing-function: ease-in-out;
 }
