@@ -45,13 +45,13 @@ button:focus {
 }
 
 a {
-  text-decoration: none;
   color: #333C45;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
 }
 
 a:hover {
   color: #546271;
-  text-decoration: underline;
 }
 
 ::selection {
