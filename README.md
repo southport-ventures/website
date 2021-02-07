@@ -55,3 +55,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 9. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+-------
+
+Deploys automatically via Netlify
+[Netlify settings here](https://app.netlify.com/sites/southportventures/overview)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c5644c0-4827-49b0-849b-cf50ae17d0d3/deploy-status)](https://app.netlify.com/sites/southportventures/deploys)
