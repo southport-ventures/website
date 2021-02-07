@@ -49,5 +49,6 @@ module.exports = {
           // exclude: ["/preview/**", "/do-not-track/me/too/"],
         },
       },
+    },
   ],
 }
