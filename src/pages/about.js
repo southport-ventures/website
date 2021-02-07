@@ -26,8 +26,8 @@ const About = () => (
         <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 p-10 lg:p-20 md:ml-20">
           <h2 className="text-6xl md:text-7xl text-blue-400">25</h2>
           <p className="text-blue-100 text-xl pt-4">combined years of product & software experience</p>
-          <h2 className="text-6xl md:text-7xl text-blue-400 mt-20">$100M+</h2>
-          <p className="text-blue-100 text-xl pt-4">in incremental revenue driven</p>
+          <h2 className="text-6xl md:text-7xl text-blue-400 mt-20">2</h2>
+          <p className="text-blue-100 text-xl pt-4">partners with skills ranging from customer research to UX to full stack software development</p>
         </div>
       </div>
     </section>
