@@ -14,18 +14,19 @@ const About = () => (
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-5 block"></span>
           <p className="text-xl md:text-2xl mb-10">
-            We're software professionals with an eye for operational strategy.
+            We're software professionals with a passion for operational excellence.
           </p>
           <p className="md:text-lg">
-            We have over 25 years of combined industry experience in SaaS, business tooling, and eCommerce.
-            We're uniquely positioned to recognize and navigate any challenges in an acquired company. Upon acquisition, we are qualified to execute the strategy and build the growth road map.
+            We have over 25 years of combined industry experience in SaaS, business process automation, and eCommerce.
+            We're skilled in knowing which levers to pull to drive growth.
+            We're uniquely positioned to recognize and navigate any challenges in an acquired company.
             We are both private investors and allocating our own capital to Southport Ventures.
           </p>
         </div>
         <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 p-10 lg:p-20 md:ml-20">
-          <h2 className="text-6xl md:text-8xl text-blue-400">25</h2>
+          <h2 className="text-6xl md:text-7xl text-blue-400">25</h2>
           <p className="text-blue-100 text-xl pt-4">combined years of product & software experience</p>
-          <h2 className="text-6xl md:text-8xl text-blue-400 mt-20">100M+</h2>
+          <h2 className="text-6xl md:text-7xl text-blue-400 mt-20">$100M+</h2>
           <p className="text-blue-100 text-xl pt-4">in incremental revenue driven</p>
         </div>
       </div>
