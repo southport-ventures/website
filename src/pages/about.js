@@ -9,7 +9,7 @@ const About = () => (
     <section className="lg:container mx-auto mt-10 md:px-20 md:my-20">
       <div className="md:flex md:items-center">
         <div className="w-100 md:w-6/12 lg:w-7/12 px-5 md:px-0">
-          <h1 className="text-2xl md:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
+          <h1 className="text-2xl md:text-4xl">
             About Us
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-5 block"></span>
@@ -37,8 +37,8 @@ const About = () => (
         <div>
           <div className="md:grid md:grid-cols-2 md:gap-20">
             <div className="bg-white p-10 shadow-xl mb-20 md:mb-0">
-              <h4 className="text-2xl lg:text-4xl mb-2">Trevor Ewen</h4>
-              <p className="lg:text-2xl mb-10">
+              <h3 className="text-2xl lg:text-4xl mb-2">Trevor</h3>
+              <p className="uppercase mb-10 font-bold text-blue-400">
                 Partner
               </p>
               <p>
@@ -48,16 +48,14 @@ const About = () => (
               </p>
             </div>
             <div className="bg-white p-10 shadow-xl">
-              <h4 className="text-2xl lg:text-4xl mb-2">Nicholas Evans</h4>
-              <p className="lg:text-2xl mb-10">
+              <h3 className="text-2xl lg:text-4xl mb-2">Nicholas</h3>
+              <p className="uppercase mb-10 font-bold text-blue-400">
                 Partner
               </p>
               <p>
-              Nicholas is an experienced product manager & UX designer.
-              He was the fifth employee and first designer at Reverb.com (acquired by Etsy in 2019).
-              He wore many hats (Senior Product Designer, Director of UX, Product Manager, Senior Product Manager) and helped grow Reverb from a few thousand in transactions to billions in transactions and tens of millions in revenue.
-              Prior to Reverb, he was a design & innovation consultant.
-              Notable engagements include SC Johnson, GE, Samsung.
+                Nicholas is an experienced product manager & UX designer.
+                He was the fifth employee and first designer at a consumer marketplace startup (acquired by an S&P 500 company in 2019).
+                He wore many hats (Senior Product Designer, Director of UX, Product Manager, Senior Product Manager) and helped grow the business from a few thousand in transactions to billions in transactions and tens of millions in revenue.
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header className="bg-blue-100 border-b border-blue-200">
-    <nav className="lg:container mx-auto flex flex-wrap justify-between items-center p-5 md:px-20 lg:py-8">
+    <nav className="lg:container mx-auto flex flex-col md:flex-row md:justify-between md:items-center p-5 md:px-20 lg:py-8">
       <h1 className="text-xl lg:text-2xl mb-1 sm:mb-0">
         <Link to="/" >
           {siteTitle}

@@ -7,7 +7,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <section className="lg:container mx-auto mt-10 md:px-20 md:my-20">
-      <h1 className="text-2xl md:text-4xl mb-10 leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
+      <h1 className="text-2xl md:text-4xl mb-10 px-5 md:px-0">
         Contact Us
       </h1>
       <form className="mt-10" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">

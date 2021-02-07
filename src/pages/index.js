@@ -25,28 +25,28 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="lg:container mx-auto md-mt-10 md:mt-20 lg:my-40 md:px-20">
+    <section className="lg:container mx-auto md:mt-20 lg:my-40 md:px-20">
       <div className="flex flex-wrap md:flex-nowrap md:items-end relative">
         <img className="w-full md:w-9/12" src={SketchingTogether} alt="Two people looking at computer together" />
-        <div className="bg-blue-700 px-5 py-10 md:p-14 z-10 md:absolute md:right-0 xl:right-10 md:bottom-0 md:w-6/12 xl:w-4/12">
+        <div className="bg-blue-700 px-5 py-20 md:p-14 z-10 md:absolute md:right-0 xl:right-10 md:bottom-0 md:w-6/12 xl:w-4/12">
           <h2 className="text-3xl lg:text-2xl text-blue-200">
             How We're Different
           </h2>
           <span className="border-b-2 border-blue-400 w-24 my-6 block"></span>
-          <p className="text-blue-100 text-lg">
+          <p className="text-blue-100 text-xl leading-normal">
             We know how to build great software. Years of product and engineering experience make us much more than just financial acquirers.
           </p>
         </div>
       </div>
     </section>
 
-    <section className="lg:container mx-auto my-10 md:my-20 lg:my-40 px-5 md:px-20">
+    <section className="lg:container mx-auto my-20 lg:my-40 px-5 md:px-20">
       <h2 className="text-3xl lg:text-4xl">
         Our Criteria
       </h2>
       <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
       <div className="lg:w-9/12 mb-10">
-        <p className="text-2xl">
+        <p className="text-xl leading-normal">
           The rough bounds of what we look for.
           Feel free to reach out even if your business doesn't fit these criteria.
           We love building relationships with owners who might be looking to sell down the road.
@@ -81,7 +81,7 @@ const IndexPage = () => (
         </h2>
         <span className="border-b-2 border-blue-400 w-24 my-6 block"></span>
         <div className="lg:w-9/12 mb-10">
-          <p className="text-2xl text-blue-100">
+          <p className="text-xl leading-normal text-blue-100">
             We’ll take care of your customers and employees, invest in growing the business, and provide an outstanding outcome for you.
             <br/>
             <br/>
