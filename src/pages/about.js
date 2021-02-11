@@ -42,9 +42,10 @@ const About = () => (
                 Partner
               </p>
               <p>
-              Trevor is an experienced software engineer.
-              He's built software for clients for over 15 years and managed full-stack teams in clean energy, insurance, finance, and media.
-              Notable engagements include Morgan Stanley, HBO, Bloomberg, and Honest Buildings (now Procore).
+                Trevor is an experienced software engineer, project manager, and real-estate investor.
+                He has overseen full-stack teams in clean energy, insurance, finance, and media.
+                Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
+                He has an MBA from London Business School and an MBA from Columbia Business School.
               </p>
             </div>
             <div className="bg-white p-10 shadow-xl">
