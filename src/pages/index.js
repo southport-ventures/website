@@ -56,19 +56,19 @@ const IndexPage = () => (
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Track Record & Growth</h4>
           <p>
-            3+ years of operational history. Steady growth of 10%–50% per year.
+            Three or more years of operational history and steady growth of at least 10% per year.
           </p>
         </div>
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Revenue & Profitability</h4>
           <p>
-            $1M to $7M in annual recurring revenue. Profitable.
+            Profitable businesses with $1M to $7M in annual recurring revenue.
           </p>
         </div>
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Product & Churn</h4>
           <p>
-            Your customers love your product, so your churn is low.
+            Customers love your product and your revenue churn is below 10% per month.
           </p>
         </div>
       </div>
