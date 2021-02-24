@@ -26,7 +26,7 @@ const IndexPage = () => (
     </section>
 
     <section className="lg:container mx-auto md:mt-20 lg:my-40 md:px-20">
-      <div className="flex flex-wrap md:flex-nowrap md:items-end relative">
+      <div className="md:flex md:items-end relative">
         <img className="w-full md:w-9/12" src={SketchingTogether} alt="Two people looking at computer together" />
         <div className="bg-blue-700 px-5 py-20 md:p-14 z-10 md:absolute md:right-0 xl:right-10 md:bottom-0 md:w-6/12 xl:w-4/12">
           <h2 className="text-3xl lg:text-2xl text-blue-200">
