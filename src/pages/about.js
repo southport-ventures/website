@@ -45,7 +45,7 @@ const About = () => (
                 Trevor is an experienced software engineer, project manager, and real-estate investor.
                 He has overseen full-stack teams in clean energy, insurance, finance, and media.
                 Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
-                He has an MBA from London Business School and an MBA from Columbia Business School.
+                He has an MBA from London Business School and Columbia Business School via the joint, global program.
               </p>
             </div>
             <div className="bg-white p-10 shadow-xl">
@@ -56,7 +56,7 @@ const About = () => (
               <p>
                 Nicholas is an experienced product manager & UX designer.
                 He was the fifth employee and first designer at a consumer marketplace startup (acquired by an S&P 500 company in 2019).
-                He wore many hats (Senior Product Designer, Director of UX, Product Manager, Senior Product Manager) and helped grow the business from a few thousand in transactions to billions in transactions and tens of millions in revenue.
+                He wore many hats (Senior Product Designer, Director of UX, Senior Product Manager, Group Product Manager) and helped grow the business from a few thousand in transactions to billions in transactions and tens of millions in revenue.
               </p>
             </div>
           </div>
