@@ -66,7 +66,7 @@ const About = () => {
                 He has an MBA from London Business School and Columbia Business School via the joint, global program.
                 <br/>
                 <br/>
-                Trevor lives with his wife in Weehawken, NJ.
+                Trevor currently resides with his wife Dianein Weehawken, New Jersey. Just outside ofNew York City.
               </p>
             </div>
             <div className="mb-20 md:mb-0">
