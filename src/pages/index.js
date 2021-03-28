@@ -92,7 +92,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="bg-blue-200 py-40">
+    <section className="bg-blue-200 py-20 lg:py-40">
       <div className="lg:container mx-auto px-5 md:px-20">
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">

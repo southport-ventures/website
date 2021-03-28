@@ -26,8 +26,8 @@ const About = () => {
         </div>
       </section>
 
-      <section className="lg:container mx-auto md:mt-20 lg:my-40 md:px-20">
-        <div className="lg:w-10/12 xl:w-8/12 mx-auto text-center">
+      <section className="lg:container mx-auto my-20 lg:my-40 px-5">
+        <div className="lg:w-9/12 mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl">
             Why Sell To Us?
           </h2>
@@ -45,51 +45,58 @@ const About = () => {
         </div>
       </section>
 
-      <section className="bg-blue-200 py-20 md:mt-20">
+      <section className="bg-blue-200 py-20 lg:py-40">
         <div className="lg:container mx-auto px-5 md:px-20">
           <h2 className="text-3xl lg:text-4xl text-center">
             Who We Are
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
-          <p className="text-xl leading-normal text-center">
+          <h3 className="font-sans text-xl md:text-2xl text-center font-normal">
             The GovTech Experience, Advisor, and Lead Investor
-          </p>
+          </h3>
           <img className="mx-auto my-10" src={StevePic} alt="Steve Ressler" />
-          <h3 className="text-2xl text-center">Steve Ressler</h3>
+          <h4 className="text-2xl font-sans text-center">Steve Ressler</h4>
           <p className="mt-5">
             Steve is a serial entrepreneur and CEO and an active investor in search funds. He was the founder and CEO of GovLoop, an online community connecting over 250,000+ government employees, which he successfully sold in 2009. He was also the Chief Marketing Officer of Granicus, one of the largest and fastest-growing software platforms serving state and local governments under Vista Equity Partners' ownership.  He was most recently President of Callyo, a software and technology solutions provider for law enforcement, which he grew and ultimately led the sale of to Motorola Solutions in 2020.
             <br/>
             <br/>
             He’s also a third-generation government employee, having started his career at the Department of Homeland Security (DHS) where he worked for five years in a range of technology and counterterrorism roles. He is passionate about sharing the lessons and best practices he has learned founding, running and managing small software businesses with entrepreneurs pursuing entrepreneurship through acquisition. He targets investing in 10-20 acquisition investments per year, with a majority being veteran-led. Steve, his wife and two boys live in Washington, DC and he spends his free time with his family playing Roblox, falling behind his kids’ Spanish skills, and perfecting his latte art.
           </p>
-          <div className="md:grid md:grid-cols-2 md:gap-20 mt-20">
+          <h3 className="font-sans text-xl md:text-2xl font-normal text-center mt-20 md:mt-40">
+            The Operators
+          </h3>
+          <div className="md:grid md:grid-cols-2 md:gap-20 mt-5">
             <div className="mb-20 md:mb-0">
               <img className="mx-auto my-10" src={TrevorPic} alt="Trevor Ewen" />
-              <h3 className="text-2xl text-center">Trevor Ewen</h3>
+              <h4 className="text-2xl font-sans text-center">Trevor Ewen</h4>
               <p className="mt-5">
-                Trevor is an experienced software engineer, project manager, and real-estate investor. He has overseen full-stack teams in clean energy, insurance, finance, and media. Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
+                Trevor is a Partner at Southport Ventures and an experienced software engineer, project manager, and real-estate investor.
+                He has overseen full-stack teams in clean energy, insurance, finance, and media.
+                Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
                 He has an MBA from London Business School and Columbia Business School via the joint, global program.
                 <br/>
                 <br/>
-                Trevor currently resides with his wife Dianein Weehawken, New Jersey. Just outside ofNew York City.
+                Trevor currently resides with his wife Dianein Weehawken, New Jersey, just outside of New York City.
               </p>
             </div>
             <div className="mb-20 md:mb-0">
               <img className="mx-auto my-10" src={NicholasPic} alt="Nicholas Evans" />
-              <h3 className="text-2xl text-center">Nicholas Evans</h3>
+              <h4 className="text-2xl font-sans text-center">Nicholas Evans</h4>
               <p className="mt-5">
-                Nicholas is an experienced product manager and design leader. He was the fifth employee at Reverb.com and helped grow it to billions in total dollars transacted and tens of millions in revenue, culminating in an acquisition by Etsy.
+                Nicholas is a Partner at Southport Ventures and an experienced product manager.
+                He was the fifth employee at Reverb.com and helped grow it to billions in total dollars transacted and tens of millions in revenue, culminating in an acquisition by Etsy.
                 He spent the last few years leading the Buyer Experience efforts at Reverb and driving over a hundred million in incremental gross merchandise sales through product improvements and experimentation.
+                Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson, OfficeMax, and ClubCorp.
                 <br/>
                 <br/>
-                Nicholas lives in Chicago, IL with his wife and two daughters. He spends his free time in nature and walking around his house turning off lights.
+                Nicholas lives in Chicago, IL with his wife and two daughters.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-40">
+      <section className="py-20 lg:py-40">
         <div className="lg:container mx-auto px-5 md:px-20">
           <div className="text-center">
             <h2 className="text-3xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
