@@ -35,7 +35,12 @@ const About = () => {
           <p className="text-xl leading-normal">
             We’re an operational team with deep software experience partnered up with a GovTech founder, advisor, and investor.
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
-            We believe in driving growth through innovation and experimentation, not cost cutting and financial gymnastics.
+            <br/>
+            <br/>
+            We aren't a massive private equity firm with a big portfolio, a bunch of deals to juggle, and a drawn-out process.
+            We're a team of product geeks and technologists looking to buy and operate a great business.
+            We enjoy talking about your product, tech, and the carefully crafted experience you've created over drilling you about your financials.
+            We'll drive growth through innovation, experimentation, and investing in people, not through cost cutting and financial gymnastics.
           </p>
         </div>
       </section>
