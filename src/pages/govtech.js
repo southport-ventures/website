@@ -33,7 +33,7 @@ const About = () => {
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
           <p className="text-xl leading-normal">
-            We’re an operational team with deep software experience partnered up with a GovTech founder, advisor, and investor.
+            We’re an operational team with deep software experience partnered up with a GovTech founder and investor.
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
             <br/>
             <br/>
@@ -52,7 +52,7 @@ const About = () => {
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
           <h3 className="font-sans text-xl md:text-2xl text-center font-normal">
-            The GovTech Experience, Advisor, and Lead Investor
+            The GovTech Experience and Lead Investor
           </h3>
           <img className="mx-auto my-10" src={StevePic} alt="Steve Ressler" />
           <h4 className="text-2xl font-sans text-center">Steve Ressler</h4>
@@ -62,7 +62,8 @@ const About = () => {
             <br/>
             He’s also a third-generation government employee, having started his career at the Department of Homeland Security (DHS) where he worked for five years in a range of technology and counterterrorism roles. He is passionate about sharing the lessons and best practices he has learned founding, running and managing small software businesses with entrepreneurs pursuing entrepreneurship through acquisition. He targets investing in 10-20 acquisition investments per year, with a majority being veteran-led. Steve, his wife and two boys live in Washington, DC and he spends his free time with his family playing Roblox, falling behind his kids’ Spanish skills, and perfecting his latte art.
           </p>
-          <h3 className="font-sans text-xl md:text-2xl font-normal text-center mt-20 md:mt-40">
+          <div className="border-b-2 border-blue-700 w-24 my-10 lg:my-20 block mx-auto"></div>
+          <h3 className="font-sans text-xl md:text-2xl font-normal text-center">
             The Operators
           </h3>
           <div className="md:grid md:grid-cols-2 md:gap-20 mt-5">
@@ -76,7 +77,7 @@ const About = () => {
                 He has an MBA from London Business School and Columbia Business School via the joint, global program.
                 <br/>
                 <br/>
-                Trevor currently resides with his wife Dianein Weehawken, New Jersey, just outside of New York City.
+                Trevor currently resides with his wife Diane in Weehawken, NJ, just outside of New York City.
               </p>
             </div>
             <div className="mb-20 md:mb-0">
