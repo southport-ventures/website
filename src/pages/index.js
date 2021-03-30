@@ -92,7 +92,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="bg-blue-200 py-40">
+    <section className="bg-blue-200 py-20 lg:py-40">
       <div className="lg:container mx-auto px-5 md:px-20">
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
@@ -102,7 +102,7 @@ const IndexPage = () => (
           <p className="text-xl lg:text-2xl mb-10">
             We'll tell you what we think it's worth, free of cost.
           </p>
-          <Link href="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
+          <Link to="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
             Get a Free Valuation
           </Link>
         </div>
