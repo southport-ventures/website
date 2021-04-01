@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Southport Ventures`,
-    description: `Southport Ventures buys SaaS businesses`,
+    description: `Southport Ventures buys and grows software businesses`,
     author: `Nicholas Evans`,
   },
   plugins: [

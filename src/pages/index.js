@@ -16,7 +16,7 @@ const IndexPage = () => (
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
           <p className="text-xl lg:text-2xl mb-10 lg:w-8/12">
-          Southport Ventures is an acquisition fund focused on buying profitable, mission critical, B2B SaaS businesses.
+            Southport Ventures is an acquisition fund focused on buying profitable, mission critical, software businesses.
           </p>
           <Link to="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
             Get In Touch
