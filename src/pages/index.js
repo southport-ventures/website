@@ -4,31 +4,33 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SketchingTogether from "../images/sketching-together.jpg"
+import ContrastElement from "../images/contrast-element.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Southport Ventures" />
     <section className="bg-blue-200 relative">
       <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap xl:items-center">
-        <div className="w-100 md:w-75 px-5 py-20 md:px-20 lg:pr-40 md:py-20 xl:py-32">
+        <div className="w-100 md:w-75 px-5 py-20 md:px-20 md:pt-20 md:pb-0 xl:pt-32 xl:pb-11">
           <h1 className="text-4xl lg:text-5xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-            We buy niche, profitable SaaS businesses
+            We buy and grow software businesses
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
           <p className="text-xl lg:text-2xl mb-10 lg:w-8/12">
-          Southport Ventures is an acquisition fund focused on buying profitable, mission critical, B2B SaaS businesses.
+            Southport Ventures buys profitable, mission-critical software businesses and accelerates their growth. We love B2B and B2G SaaS.
           </p>
           <Link to="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
             Get In Touch
           </Link>
         </div>
       </div>
+      <img className="hidden md:block w-full h-24 object-none object-right-bottom" src={ContrastElement} alt="Contrast graphic" />
     </section>
 
     <section className="lg:container mx-auto md:mt-20 lg:my-40 md:px-20">
-      <div className="md:flex md:items-end relative">
-        <img className="w-full md:w-9/12" src={SketchingTogether} alt="Two people looking at computer together" />
-        <div className="bg-blue-700 px-5 py-20 md:p-14 z-10 md:absolute md:right-0 xl:right-10 md:bottom-0 md:w-6/12 xl:w-4/12">
+      <div className="lg:flex lg:items-end relative">
+        <img className="w-full lg:w-9/12" src={SketchingTogether} alt="Two people looking at computer together" />
+        <div className="bg-blue-700 px-5 py-20 md:p-14 z-10 lg:absolute lg:right-0 xl:right-10 lg:bottom-0 lg:w-6/12 xl:w-4/12">
           <h2 className="text-3xl lg:text-2xl text-blue-200">
             How We're Different
           </h2>
@@ -62,7 +64,7 @@ const IndexPage = () => (
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Revenue & Profitability</h4>
           <p>
-            Profitable businesses with $1M to $7M in annual recurring revenue.
+            Profitable businesses with $500K to $5M in annual recurring revenue.
           </p>
         </div>
         <div className="bg-white p-10 shadow-xl mb-10">

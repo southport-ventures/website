@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TrevorPic from "../images/trevor-profile.png"
+import NicholasPic from "../images/nicholas-profile.png"
 
 const About = () => (
   <Layout>
@@ -17,9 +19,13 @@ const About = () => (
             We're software professionals with a passion for operational excellence.
           </p>
           <p className="md:text-lg">
-            We have over 25 years of combined industry experience in SaaS, business process automation, and eCommerce.
-            We're skilled in knowing which levers to pull to drive growth.
-            We're uniquely positioned to recognize and navigate any challenges in an acquired company.
+            Southport Ventures is a team of product and software development professionals looking to buy and operate great businesses.
+            We obsess over standard operating procedures, product strategy, experimentation, and crafting the right tech stack.
+            We enjoy talking about product, software engineering, and carefully crafted experiences over drilling owners on their financials.
+            We believe in accelerating growth through innovation, experimentation, and investing in people, not through cost cutting and financial gymnastics.
+            <br/>
+            <br/>
+            We have over 25 years of combined industry experience in SaaS, business process automation, and eCommerce, which gives us insight into which levers to pull to drive growth.
             We are both private investors and allocating our own capital to Southport Ventures.
           </p>
         </div>
@@ -27,7 +33,7 @@ const About = () => (
           <h2 className="text-6xl md:text-7xl text-blue-400">25</h2>
           <p className="text-blue-100 text-xl pt-4">combined years of product & software experience</p>
           <h2 className="text-6xl md:text-7xl text-blue-400 mt-20">2</h2>
-          <p className="text-blue-100 text-xl pt-4">partners with skills ranging from customer research to UX to full stack software development</p>
+          <p className="text-blue-100 text-xl pt-4">partners with skills ranging from product management, customer research, and UX to full stack software development</p>
         </div>
       </div>
     </section>
@@ -37,8 +43,9 @@ const About = () => (
         <div>
           <div className="md:grid md:grid-cols-2 md:gap-20">
             <div className="bg-white p-10 shadow-xl mb-20 md:mb-0">
-              <h3 className="text-2xl lg:text-4xl mb-2">Trevor</h3>
-              <p className="uppercase mb-10 font-bold text-blue-400">
+              <img className="mx-auto mb-5" src={TrevorPic} alt="Trevor Ewen" />
+              <h3 className="text-xl lg:text-3xl mb-2 text-center">Trevor Ewen</h3>
+              <p className="uppercase mb-5 font-bold text-blue-400 text-center">
                 Partner
               </p>
               <p>
@@ -49,14 +56,16 @@ const About = () => (
               </p>
             </div>
             <div className="bg-white p-10 shadow-xl">
-              <h3 className="text-2xl lg:text-4xl mb-2">Nicholas</h3>
-              <p className="uppercase mb-10 font-bold text-blue-400">
+              <img className="mx-auto mb-5" src={NicholasPic} alt="Nicholas Evans" />
+              <h3 className="text-xl lg:text-3xl mb-2 text-center">Nicholas Evans</h3>
+              <p className="uppercase mb-5 font-bold text-blue-400 text-center">
                 Partner
               </p>
               <p>
-                Nicholas is an experienced product manager & UX designer.
-                He was the fifth employee and first designer at a consumer marketplace startup (acquired by an S&P 500 company in 2019).
-                He wore many hats (Senior Product Designer, Director of UX, Senior Product Manager, Group Product Manager) and helped grow the business from a few thousand in transactions to billions in transactions and tens of millions in revenue.
+                Nicholas is an experienced product manager and designer.
+                As the fifth employee at Reverb.com, he helped lead the product organization and grow Reverb to billions in gross merchandise sales, tens of millions in revenue, and an eventual sale to Etsy.
+                He spent the last few years leading the Buyer Experience efforts at Reverb and driving high incrmental revenue through experimentation and launching new products.
+                Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson, OfficeMax, and ClubCorp.
               </p>
             </div>
           </div>

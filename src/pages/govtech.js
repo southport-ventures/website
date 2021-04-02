@@ -56,12 +56,19 @@ const About = () => {
           </h3>
           <img className="mx-auto my-10" src={StevePic} alt="Steve Ressler" />
           <h4 className="text-2xl font-sans text-center">Steve Ressler</h4>
-          <p className="mt-5">
+          <p className="my-5">
             Steve is a serial entrepreneur and CEO and an active investor in search funds. He was the founder and CEO of GovLoop, an online community connecting over 250,000+ government employees, which he successfully sold in 2009. He was also the Chief Marketing Officer of Granicus, one of the largest and fastest-growing software platforms serving state and local governments under Vista Equity Partners' ownership.  He was most recently President of Callyo, a software and technology solutions provider for law enforcement, which he grew and ultimately led the sale of to Motorola Solutions in 2020.
             <br/>
             <br/>
             He’s also a third-generation government employee, having started his career at the Department of Homeland Security (DHS) where he worked for five years in a range of technology and counterterrorism roles. He is passionate about sharing the lessons and best practices he has learned founding, running and managing small software businesses with entrepreneurs pursuing entrepreneurship through acquisition. He targets investing in 10-20 acquisition investments per year, with a majority being veteran-led. Steve, his wife and two boys live in Washington, DC and he spends his free time with his family playing Roblox, falling behind his kids’ Spanish skills, and perfecting his latte art.
           </p>
+          <a href="https://www.linkedin.com/in/ressler/" target="_blank" rel="noreferrer" className="block">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <g fill="#2867B2">
+                <path d="M29.714 0L2.279 0C1.021 0 0 1.036 0 2.307L0 29.693C0 30.964 1.021 32 2.279 32L29.714 32C30.971 32 32 30.964 32 29.693L32 2.307C32 1.036 30.971 0 29.714 0ZM9.671 27.429L4.929 27.429 4.929 12.157 9.679 12.157 9.679 27.429 9.671 27.429ZM7.3 10.071C5.779 10.071 4.55 8.836 4.55 7.321 4.55 5.807 5.779 4.571 7.3 4.571 8.814 4.571 10.05 5.807 10.05 7.321 10.05 8.843 8.821 10.071 7.3 10.071ZM27.45 27.429L22.707 27.429 22.707 20C22.707 18.229 22.671 15.95 20.243 15.95 17.771 15.95 17.393 17.879 17.393 19.871L17.393 27.429 12.65 27.429 12.65 12.157 17.2 12.157 17.2 14.243 17.264 14.243C17.9 13.043 19.45 11.779 21.757 11.779 26.557 11.779 27.45 14.943 27.45 19.057L27.45 27.429Z"/>
+              </g>
+            </svg>
+          </a>
           <div className="border-b-2 border-blue-700 w-24 my-10 lg:my-20 block mx-auto"></div>
           <h3 className="font-sans text-xl md:text-2xl font-normal text-center">
             The Operators
@@ -70,7 +77,7 @@ const About = () => {
             <div className="mb-20 md:mb-0">
               <img className="mx-auto my-10" src={TrevorPic} alt="Trevor Ewen" />
               <h4 className="text-2xl font-sans text-center">Trevor Ewen</h4>
-              <p className="mt-5">
+              <p className="my-5">
                 Trevor is a Partner at Southport Ventures and an experienced software engineer, project manager, and real-estate investor.
                 He has overseen full-stack teams in clean energy, insurance, finance, and media.
                 Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
@@ -79,11 +86,18 @@ const About = () => {
                 <br/>
                 Trevor currently resides with his wife Diane in Weehawken, NJ, just outside of New York City.
               </p>
+              <a href="https://www.linkedin.com/in/trevorewen/" target="_blank" rel="noreferrer" className="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                  <g fill="#2867B2">
+                    <path d="M29.714 0L2.279 0C1.021 0 0 1.036 0 2.307L0 29.693C0 30.964 1.021 32 2.279 32L29.714 32C30.971 32 32 30.964 32 29.693L32 2.307C32 1.036 30.971 0 29.714 0ZM9.671 27.429L4.929 27.429 4.929 12.157 9.679 12.157 9.679 27.429 9.671 27.429ZM7.3 10.071C5.779 10.071 4.55 8.836 4.55 7.321 4.55 5.807 5.779 4.571 7.3 4.571 8.814 4.571 10.05 5.807 10.05 7.321 10.05 8.843 8.821 10.071 7.3 10.071ZM27.45 27.429L22.707 27.429 22.707 20C22.707 18.229 22.671 15.95 20.243 15.95 17.771 15.95 17.393 17.879 17.393 19.871L17.393 27.429 12.65 27.429 12.65 12.157 17.2 12.157 17.2 14.243 17.264 14.243C17.9 13.043 19.45 11.779 21.757 11.779 26.557 11.779 27.45 14.943 27.45 19.057L27.45 27.429Z"/>
+                  </g>
+                </svg>
+              </a>
             </div>
             <div className="mb-20 md:mb-0">
               <img className="mx-auto my-10" src={NicholasPic} alt="Nicholas Evans" />
               <h4 className="text-2xl font-sans text-center">Nicholas Evans</h4>
-              <p className="mt-5">
+              <p className="my-5">
                 Nicholas is a Partner at Southport Ventures and an experienced product manager.
                 He was the fifth employee at Reverb.com and helped grow it to billions in total dollars transacted and tens of millions in revenue, culminating in an acquisition by Etsy.
                 He spent the last few years leading the Buyer Experience efforts at Reverb and driving over a hundred million in incremental gross merchandise sales through product improvements and experimentation.
@@ -92,6 +106,13 @@ const About = () => {
                 <br/>
                 Nicholas lives in Chicago, IL with his wife and two daughters.
               </p>
+              <a href="https://www.linkedin.com/in/nicholasaevans/" target="_blank" rel="noreferrer" className="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                  <g fill="#2867B2">
+                    <path d="M29.714 0L2.279 0C1.021 0 0 1.036 0 2.307L0 29.693C0 30.964 1.021 32 2.279 32L29.714 32C30.971 32 32 30.964 32 29.693L32 2.307C32 1.036 30.971 0 29.714 0ZM9.671 27.429L4.929 27.429 4.929 12.157 9.679 12.157 9.679 27.429 9.671 27.429ZM7.3 10.071C5.779 10.071 4.55 8.836 4.55 7.321 4.55 5.807 5.779 4.571 7.3 4.571 8.814 4.571 10.05 5.807 10.05 7.321 10.05 8.843 8.821 10.071 7.3 10.071ZM27.45 27.429L22.707 27.429 22.707 20C22.707 18.229 22.671 15.95 20.243 15.95 17.771 15.95 17.393 17.879 17.393 19.871L17.393 27.429 12.65 27.429 12.65 12.157 17.2 12.157 17.2 14.243 17.264 14.243C17.9 13.043 19.45 11.779 21.757 11.779 26.557 11.779 27.45 14.943 27.45 19.057L27.45 27.429Z"/>
+                  </g>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
