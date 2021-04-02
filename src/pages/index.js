@@ -12,11 +12,11 @@ const IndexPage = () => (
       <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap xl:items-center">
         <div className="w-100 md:w-75 px-5 py-20 md:px-20 lg:pr-40 md:py-20 xl:py-32">
           <h1 className="text-4xl lg:text-5xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-            We buy niche, profitable SaaS businesses
+            We buy and grow software businesses
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
           <p className="text-xl lg:text-2xl mb-10 lg:w-8/12">
-            Southport Ventures is an acquisition fund focused on buying profitable, mission critical, software businesses.
+            Southport Ventures buys profitable, mission-critical software businesses and accelerates their growth. We love B2B and B2G SaaS.
           </p>
           <Link to="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
             Get In Touch
