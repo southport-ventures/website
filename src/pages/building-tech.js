@@ -28,15 +28,13 @@ const BuildingTech = () => {
       </section>
 
       <section className="lg:container mx-auto my-20 lg:my-40 px-5">
-        <div className="lg:w-7/12 mx-auto text-center">
+        <div className="lg:w-8/12 mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl">
             Why Sell To Us?
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
           <p className="text-xl leading-normal">
             We’re an operational team with software, real estate, and property tech experience.
-            <br/>
-            <br/>
             We're looking to buy and operate a great business for the long term.
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
             <br/>
