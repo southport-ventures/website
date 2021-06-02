@@ -34,15 +34,15 @@ const BuildingTech = () => {
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
           <p className="text-xl leading-normal">
-            We’re an operational team who's built tons of great software, who has a depth of real estate investing experience, and who's partnered up with a proptery tech advisor and investor.
+            We’re an operational team with software, real estate, and property tech experience.
             <br/>
             <br/>
-            We're a team of technologists looking to buy and operate a great business.
+            We're looking to buy and operate a great business for the long term.
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
             <br/>
             <br/>
             We aren't a massive private equity firm with a big portfolio, a bunch of deals to juggle, and a drawn-out process.
-            We'll drive growth through innovation, experimentation, and investing in people, not through cost cutting and financial gymnastics.
+            We'll drive growth through innovation, experimentation, and investing in people, not through cost-cutting and financial gymnastics.
           </p>
         </div>
       </section>

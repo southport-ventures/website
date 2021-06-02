@@ -40,7 +40,7 @@ const GovTech = () => {
             We aren't a massive private equity firm with a big portfolio, a bunch of deals to juggle, and a drawn-out process.
             We're a team of product geeks and technologists looking to buy and operate a great business.
             We enjoy talking about your product, tech, and the carefully crafted experience you've created over drilling you about your financials.
-            We'll drive growth through innovation, experimentation, and investing in people, not through cost cutting and financial gymnastics.
+            We'll drive growth through innovation, experimentation, and investing in people, not through cost-cutting and financial gymnastics.
           </p>
         </div>
       </section>
