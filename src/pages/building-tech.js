@@ -15,12 +15,12 @@ const BuildingTech = () => {
       <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${BuildTechImage})` }}>
         <div className="bg-blue-700 bg-opacity-80 text-center">
           <div className="lg:container mx-auto px-5 md:px-20">
-            <div className="lg:w-10/12 xl:w-8/12 mx-auto py-40 md:py-60 text-white">
+            <div className="lg:w-10/12 mx-auto py-40 md:py-80 text-white">
               <h1 className="text-3xl lg:text-4xl leading-snug sm:leading-snug md:leading-snug lg:leading-snug">
                 Sell Your Business to a Team Who Knows Property Tech
               </h1>
               <p className="text-xl md:text-2xl mt-5">
-                We buy and grow profitable software businesses
+                We buy and grow software businesses
               </p>
             </div>
           </div>
