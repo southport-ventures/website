@@ -14,8 +14,8 @@ const PropertyTech = () => {
       <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${PropTechImage})` }}>
         <div className="bg-blue-700 bg-opacity-80 text-center">
           <div className="lg:container mx-auto px-5 md:px-20">
-            <div className="lg:w-8/12 mx-auto py-40 md:py-80 text-white">
-              <h1 className="text-3xl lg:text-4xl leading-snug sm:leading-snug md:leading-snug lg:leading-snug">
+            <div className="w-11/12 lg:w-10/12 mx-auto py-40 md:py-80 text-white">
+              <h1 className="text-3xl lg:text-5xl leading-snug sm:leading-snug md:leading-snug lg:leading-snug">
                 Sell Your Business to a Team Who Knows Property Tech & B2B Software
               </h1>
               <p className="text-xl md:text-2xl mt-5">
