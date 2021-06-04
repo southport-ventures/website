@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import SEO from "../components/seo"
-import PropTechImage from "../images/building-maintenance.jpg"
+import PropTechImage from "../images/prop-tech.jpg"
 import TonyPic from "../images/tony-profile.png"
 import TrevorPic from "../images/trevor-profile.png"
 import NicholasPic from "../images/nicholas-profile.png"
@@ -14,12 +14,12 @@ const PropertyTech = () => {
       <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${PropTechImage})` }}>
         <div className="bg-blue-700 bg-opacity-80 text-center">
           <div className="lg:container mx-auto px-5 md:px-20">
-            <div className="lg:w-10/12 mx-auto py-40 md:py-80 text-white">
+            <div className="lg:w-8/12 mx-auto py-40 md:py-80 text-white">
               <h1 className="text-3xl lg:text-4xl leading-snug sm:leading-snug md:leading-snug lg:leading-snug">
-                Sell Your Business to a Team Who Knows Property Tech
+                Sell Your Business to a Team Who Knows Property Tech & B2B Software
               </h1>
               <p className="text-xl md:text-2xl mt-5">
-                
+
               </p>
             </div>
           </div>
@@ -37,7 +37,8 @@ const PropertyTech = () => {
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
             <br/>
             <br/>
-            We aren't a massive private equity firm with a big portfolio, a bunch of deals to juggle, and a drawn-out process.
+            We aren't a massive private equity firm with a large portfolio of distractions, a bunch of deals to juggle, and a drawn-out process.
+            We're looking to buy and operate one business for the long term.
             We'll drive growth through innovation, experimentation, and investing in people, not through cost-cutting and financial gymnastics.
           </p>
         </div>
