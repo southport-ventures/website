@@ -2,16 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 
 import SEO from "../components/seo"
-import BuildTechImage from "../images/building-maintenance.jpg"
+import PropTechImage from "../images/building-maintenance.jpg"
 import TonyPic from "../images/tony-profile.png"
 import TrevorPic from "../images/trevor-profile.png"
 import NicholasPic from "../images/nicholas-profile.png"
 
-const BuildingTech = () => {
+const PropertyTech = () => {
   return (
     <main>
-      <SEO title="Building and Facility Management Tech" />
-      <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${BuildTechImage})` }}>
+      <SEO title="Property and Facility Management Tech" />
+      <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${PropTechImage})` }}>
         <div className="bg-blue-700 bg-opacity-80 text-center">
           <div className="lg:container mx-auto px-5 md:px-20">
             <div className="lg:w-10/12 mx-auto py-40 md:py-80 text-white">
@@ -19,7 +19,7 @@ const BuildingTech = () => {
                 Sell Your Business to a Team Who Knows Property Tech
               </h1>
               <p className="text-xl md:text-2xl mt-5">
-                We buy and grow software businesses
+                
               </p>
             </div>
           </div>
@@ -33,8 +33,7 @@ const BuildingTech = () => {
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
           <p className="text-xl leading-normal">
-            We’re an operational team with deep software, real estate, and property tech experience.
-            We're looking to buy and operate a great business for the long term.
+            We know the ins and outs of B2B software, scaling companies, and managing properties.
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
             <br/>
             <br/>
@@ -140,4 +139,4 @@ const BuildingTech = () => {
   )
 }
 
-export default BuildingTech
+export default PropertyTech
