@@ -14,8 +14,8 @@ const PropertyTech = () => {
       <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${PropTechImage})` }}>
         <div className="bg-blue-700 bg-opacity-80 text-center">
           <div className="lg:container mx-auto px-5 md:px-20">
-            <div className="w-11/12 lg:w-10/12 mx-auto py-40 md:py-80 text-white">
-              <h1 className="text-3xl lg:text-5xl leading-snug sm:leading-snug md:leading-snug lg:leading-snug">
+            <div className="w-10/12 mx-auto py-24 md:py-40 lg:py-80 xl:py-96 text-white">
+              <h1 className="text-2xl md:text-3xl lg:text-5xl leading-snug sm:leading-snug md:leading-snug lg:leading-snug">
                 Sell Your Business to a Team Who Knows Property Tech & B2B Software
               </h1>
               <p className="text-xl md:text-2xl mt-5">
@@ -27,8 +27,8 @@ const PropertyTech = () => {
       </section>
 
       <section className="lg:container mx-auto my-20 lg:my-40 px-5">
-        <div className="lg:w-8/12 mx-auto text-center">
-          <h2 className="text-3xl lg:text-4xl">
+        <div className="lg:w-10/12 xl:w-8/12 mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl">
             Why Sell To Us?
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
@@ -46,16 +46,16 @@ const PropertyTech = () => {
 
       <section className="bg-blue-200 py-20 lg:py-40">
         <div className="lg:container mx-auto px-5 md:px-20">
-          <h2 className="text-3xl lg:text-4xl text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl text-center">
             Who We Are
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
-          <h3 className="font-sans text-xl md:text-2xl text-center font-normal">
-            The Advisor and Investor
+          <h3 className="font-sans text-3xl text-center">
+            Advisor and Investor
           </h3>
-          <img className="mx-auto my-10" src={TonyPic} alt="Tony Cappaert" />
-          <h4 className="text-2xl font-sans text-center">Tony Cappaert</h4>
-          <p className="my-5">
+          <img className="mx-auto mt-10 mb-5" src={TonyPic} alt="Tony Cappaert" />
+          <h4 className="text-2xl font-sans text-center font-normal">Tony Cappaert</h4>
+          <p className="my-5 mx-auto lg:w-10/12">
             Tony Cappaert is the Founder & CEO at Blue Maple, a vacation rental investment firm and property management company. Blue Maple owns and manages a portfolio of unique, high-demand cabins and cottages in the vacation markets outside Washington, DC -- and manages all portfolio and property operations.
             <br/>
             <br/>
@@ -64,22 +64,24 @@ const PropertyTech = () => {
             <br/>
             <br/>
             Tony is an MIT alumnus and currently lives in Washington, DC with his wife, two kids, and energetic pup, Tucker. He loves hiking, camping, and drinking great beer.
+            <br/>
+            <br/>
+            <a href="https://www.linkedin.com/in/cappaert/" target="_blank" rel="noreferrer" className="block">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <g fill="#2867B2">
+                  <path d="M29.714 0L2.279 0C1.021 0 0 1.036 0 2.307L0 29.693C0 30.964 1.021 32 2.279 32L29.714 32C30.971 32 32 30.964 32 29.693L32 2.307C32 1.036 30.971 0 29.714 0ZM9.671 27.429L4.929 27.429 4.929 12.157 9.679 12.157 9.679 27.429 9.671 27.429ZM7.3 10.071C5.779 10.071 4.55 8.836 4.55 7.321 4.55 5.807 5.779 4.571 7.3 4.571 8.814 4.571 10.05 5.807 10.05 7.321 10.05 8.843 8.821 10.071 7.3 10.071ZM27.45 27.429L22.707 27.429 22.707 20C22.707 18.229 22.671 15.95 20.243 15.95 17.771 15.95 17.393 17.879 17.393 19.871L17.393 27.429 12.65 27.429 12.65 12.157 17.2 12.157 17.2 14.243 17.264 14.243C17.9 13.043 19.45 11.779 21.757 11.779 26.557 11.779 27.45 14.943 27.45 19.057L27.45 27.429Z"/>
+                </g>
+              </svg>
+            </a>
           </p>
-          <a href="https://www.linkedin.com/in/cappaert/" target="_blank" rel="noreferrer" className="block">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-              <g fill="#2867B2">
-                <path d="M29.714 0L2.279 0C1.021 0 0 1.036 0 2.307L0 29.693C0 30.964 1.021 32 2.279 32L29.714 32C30.971 32 32 30.964 32 29.693L32 2.307C32 1.036 30.971 0 29.714 0ZM9.671 27.429L4.929 27.429 4.929 12.157 9.679 12.157 9.679 27.429 9.671 27.429ZM7.3 10.071C5.779 10.071 4.55 8.836 4.55 7.321 4.55 5.807 5.779 4.571 7.3 4.571 8.814 4.571 10.05 5.807 10.05 7.321 10.05 8.843 8.821 10.071 7.3 10.071ZM27.45 27.429L22.707 27.429 22.707 20C22.707 18.229 22.671 15.95 20.243 15.95 17.771 15.95 17.393 17.879 17.393 19.871L17.393 27.429 12.65 27.429 12.65 12.157 17.2 12.157 17.2 14.243 17.264 14.243C17.9 13.043 19.45 11.779 21.757 11.779 26.557 11.779 27.45 14.943 27.45 19.057L27.45 27.429Z"/>
-              </g>
-            </svg>
-          </a>
-          <div className="border-b-2 border-blue-700 w-24 my-10 lg:my-20 block mx-auto"></div>
-          <h3 className="font-sans text-xl md:text-2xl font-normal text-center">
-            The Operators
+          <div className="border-b-2 border-blue-700 w-24 my-20 block mx-auto"></div>
+          <h3 className="font-sans text-3xl font-bold text-center">
+            Operators
           </h3>
           <div className="md:grid md:grid-cols-2 md:gap-20 mt-5">
             <div className="mb-20 md:mb-0">
-              <img className="mx-auto my-10" src={TrevorPic} alt="Trevor Ewen" />
-              <h4 className="text-2xl font-sans text-center">Trevor Ewen</h4>
+              <img className="mx-auto mt-10 mb-5" src={TrevorPic} alt="Trevor Ewen" />
+              <h4 className="text-2xl font-sans text-center font-normal">Trevor Ewen</h4>
               <p className="my-5">
                 Trevor is a Partner at Southport Ventures and an experienced software engineer, project manager, and real-estate investor.
                 He has overseen full-stack teams in clean energy, insurance, finance, and media.
@@ -97,8 +99,8 @@ const PropertyTech = () => {
               </a>
             </div>
             <div className="mb-20 md:mb-0">
-              <img className="mx-auto my-10" src={NicholasPic} alt="Nicholas Evans" />
-              <h4 className="text-2xl font-sans text-center">Nicholas Evans</h4>
+              <img className="mx-auto mt-10 mb-5" src={NicholasPic} alt="Nicholas Evans" />
+              <h4 className="text-2xl font-sans text-center font-normal">Nicholas Evans</h4>
               <p className="my-5">
                 Nicholas is a Partner at Southport Ventures and former product manager at Reverb/Etsy.
                 He was the fifth employee at Reverb.com and helped grow it to billions in total dollars transacted and tens of millions in revenue, culminating in an acquisition by Etsy.
