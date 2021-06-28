@@ -27,7 +27,7 @@ const PetTech = () => {
       </section>
 
       <section className="lg:container mx-auto my-20 lg:my-40 px-5">
-        <div className="lg:w-10/12 xl:w-8/12 mx-auto text-center">
+        <div className="lg:w-8/12 xl:w-7/12 mx-auto text-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl">
             Why Sell To Us?
           </h2>
