@@ -104,7 +104,7 @@ const PropertyTech = () => {
               <p className="my-5">
                 Nicholas is a Partner at Southport Ventures and former product manager at Reverb/Etsy.
                 He was the fifth employee at Reverb.com and helped grow it to billions in total dollars transacted and tens of millions in revenue, culminating in an acquisition by Etsy.
-                He spent the last few years leading the Buyer Experience efforts at Reverb and driving over a hundred million in incremental gross merchandise sales through product improvements and experimentation.
+                He spent the last few years leading the Buyer Experience group at Reverb and driving over a hundred million in incremental gross merchandise sales through product improvements and experimentation.
                 Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson, OfficeMax, and ClubCorp.
                 <br/>
                 <br/>
