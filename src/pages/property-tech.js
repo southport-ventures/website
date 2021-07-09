@@ -88,7 +88,7 @@ const PropertyTech = () => {
                 Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
                 <br/>
                 <br/>
-                Trevor is a Northwestern University alumnus and holds an MBA from London Business School and Columbia Business School via the joint, global program. He currently lives just outside New Your City with his wife and threee kids.
+                Trevor is a Northwestern University alumnus and holds an MBA from London Business School and Columbia Business School via the joint, global program. He currently lives just outside New York City with his wife and three kids.
               </p>
               <a href="https://www.linkedin.com/in/trevorewen/" target="_blank" rel="noreferrer" className="block">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
