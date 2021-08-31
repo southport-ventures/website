@@ -69,7 +69,6 @@ const About = () => (
                 Partner
               </p>
               <p className="mb-5">
-                Trevor is an experienced software engineer, project manager, and real-estate investor.
                 Nicholas is an experienced product manager and designer.
                 As the fifth employee at Reverb.com, he helped lead the product organization and grow Reverb to billions in gross merchandise sales, tens of millions in revenue, and an eventual sale to Etsy.
                 He spent the last few years leading the Buyer Experience efforts at Reverb and driving high incremental revenue through experimentation and launching new products.
