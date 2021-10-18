@@ -16,11 +16,8 @@ const BusinessIntelligence = () => {
           <div className="lg:container mx-auto px-5 md:px-20">
             <div className="w-11/12 md:w-9/12 mx-auto py-40 md:py-60 text-white">
               <h1 className="text-2xl md:text-3xl lg:text-5xl sm:leading-normal md:leading-normal lg:leading-normal">
-                Sell Your Business to a Team With Deep Software, Analytics, and Business Intelligence Experience
+                Sell Your Business to a Team With Deep Software, Data, and, Analytics Experience
               </h1>
-              <p className="text-xl md:text-2xl mt-5">
-
-              </p>
             </div>
           </div>
         </div>
@@ -92,7 +89,7 @@ const BusinessIntelligence = () => {
             Advisor
           </h3>
           <img className="mx-auto mt-10 mb-5" src={ScottPic} alt="Scott Stephenson" />
-          <h4 className="text-2xl font-sans text-center font-normal"></h4>
+          <h4 className="text-2xl font-sans text-center font-normal">Scott Stephenson</h4>
           <p className="my-5 mx-auto lg:w-10/12">
             Scott G. Stephenson is chairman, president, and chief executive officer of Verisk.
             Verisk delivers data, analytics, and decision support services to customers in the insurance, natural resources, financial services, government, and risk management sectors.

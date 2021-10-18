@@ -18,9 +18,6 @@ const PetTech = () => {
               <h1 className="text-2xl md:text-3xl lg:text-5xl sm:leading-normal md:leading-normal lg:leading-normal">
                 Sell Your Business to a Team With Deep Pet Industry & Software Experience
               </h1>
-              <p className="text-xl md:text-2xl mt-5">
-
-              </p>
             </div>
           </div>
         </div>
