@@ -52,7 +52,7 @@ const PetTech = () => {
           <h3 className="font-sans text-3xl text-center">
             Advisor and Investor
           </h3>
-          <img className="mx-auto mt-10 mb-5" src={MattPic} alt="Matt Cappaert" />
+          <img className="mx-auto mt-10 mb-5" src={MattPic} alt="Matt Bennett" />
           <h4 className="text-2xl font-sans text-center font-normal">Matt Bennett</h4>
           <p className="my-5 mx-auto lg:w-10/12">
             Matt is currently Managing Partner at Longvue, a long-term growth investor that partners with great entrepreneurs & operators to build lasting companies with 10x outcomes.  Matt is also currently a Partner at Talisman Capital Partners, a family office that has built three companies from less than $1M of earnings to north of $1B of EV.
