@@ -10,7 +10,7 @@ const FreeValuationFooter = () => (
         </h2>
         <span className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></span>
         <p className="text-xl lg:text-2xl mb-10">
-          We'll get you a quick ballpark estimate and show you how we arrived at it.
+          We'll get you a quick ballpark estimate and show you how we calculated it.
         </p>
         <Link to="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
           Get a Free Valuation
