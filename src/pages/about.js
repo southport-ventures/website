@@ -19,7 +19,7 @@ const About = () => (
           <p className="text-xl md:text-2xl mb-10">
             We're software professionals with a passion for operational excellence.
           </p>
-          <p className="md:text-lg">
+          <p className="pb-10 md:text-lg">
             Southport Ventures is a team of product and software development professionals looking to buy and operate great businesses.
             We obsess over standard operating procedures, product strategy, experimentation, and crafting the right tech stack.
             We enjoy talking about product, software engineering, and carefully crafted experiences over drilling owners on their financials.
@@ -43,7 +43,7 @@ const About = () => (
       <div className="lg:container mx-auto px-5 md:px-20">
         <div>
           <div className="md:grid md:grid-cols-2 md:gap-20">
-            <div className="bg-white p-10 shadow-xl mb-20 md:mb-0">
+            <div className="bg-white p-5 md:p-10 shadow-xl mb-10 md:mb-0">
               <img className="mx-auto mb-5" src={TrevorPic} alt="Trevor Ewen" />
               <h3 className="text-xl lg:text-3xl mb-2 text-center">Trevor Ewen</h3>
               <p className="uppercase mb-5 font-bold text-blue-400 text-center">
@@ -63,7 +63,7 @@ const About = () => (
                 </svg>
               </a>
             </div>
-            <div className="bg-white p-10 shadow-xl">
+            <div className="bg-white p-5 md:p-10 shadow-xl">
               <img className="mx-auto mb-5" src={NicholasPic} alt="Nicholas Evans" />
               <h3 className="text-xl lg:text-3xl mb-2 text-center">Nicholas Evans</h3>
               <p className="uppercase mb-5 font-bold text-blue-400 text-center">
