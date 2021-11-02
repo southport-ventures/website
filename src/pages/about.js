@@ -72,7 +72,7 @@ const About = () => (
               <p className="mb-5">
                 Nicholas is an experienced product manager and designer.
                 As the fifth employee at Reverb.com, he helped lead the product organization and grow Reverb to billions in gross merchandise sales, tens of millions in revenue, and an eventual sale to Etsy.
-                He spent the last few years leading the Buyer Experience efforts at Reverb and driving high incremental revenue through experimentation and launching new products.
+                He spent the last few years leading the Buyer Experience efforts at Reverb and driving incremental revenue through experimentation and launching new products.
                 Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson, OfficeMax, and ClubCorp.
               </p>
               <a href="https://www.linkedin.com/in/nicholasaevans/" target="_blank" rel="noreferrer" className="block">
