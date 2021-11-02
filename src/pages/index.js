@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import FreeValuationFooter from "../components/free-valuation-footer"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -93,23 +94,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
-    <section className="bg-blue-200 py-20 lg:py-40">
-      <div className="lg:container mx-auto px-5 md:px-20">
-        <div className="text-center">
-          <h2 className="text-3xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-            Want a free valuation of your business?
-          </h2>
-          <span className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></span>
-          <p className="text-xl lg:text-2xl mb-10">
-            We'll tell you what we think it's worth, free of cost.
-          </p>
-          <Link to="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
-            Get a Free Valuation
-          </Link>
-        </div>
-      </div>
-    </section>
+    <FreeValuationFooter />
   </Layout>
 )
 

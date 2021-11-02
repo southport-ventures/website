@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import FreeValuationFooter from "../components/free-valuation-footer"
 
 import SEO from "../components/seo"
 import PetTechImage from "../images/pet-tech.jpg"
@@ -18,9 +18,6 @@ const PetTech = () => {
               <h1 className="text-2xl md:text-3xl lg:text-5xl sm:leading-normal md:leading-normal lg:leading-normal">
                 Sell Your Business to a Team With Deep Pet Industry & Software Experience
               </h1>
-              <p className="text-xl md:text-2xl mt-5">
-
-              </p>
             </div>
           </div>
         </div>
@@ -52,7 +49,7 @@ const PetTech = () => {
           <h3 className="font-sans text-3xl text-center">
             Advisor and Investor
           </h3>
-          <img className="mx-auto mt-10 mb-5" src={MattPic} alt="Matt Cappaert" />
+          <img className="mx-auto mt-10 mb-5" src={MattPic} alt="Matt Bennett" />
           <h4 className="text-2xl font-sans text-center font-normal">Matt Bennett</h4>
           <p className="my-5 mx-auto lg:w-10/12">
             Matt is currently Managing Partner at Longvue, a long-term growth investor that partners with great entrepreneurs & operators to build lasting companies with 10x outcomes.  Matt is also currently a Partner at Talisman Capital Partners, a family office that has built three companies from less than $1M of earnings to north of $1B of EV.
@@ -122,23 +119,7 @@ const PetTech = () => {
           </div>
         </div>
       </section>
-
-      <section className="py-20 lg:py-40">
-        <div className="lg:container mx-auto px-5 md:px-20">
-          <div className="text-center">
-            <h2 className="text-3xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-              Want a free valuation of your business?
-            </h2>
-            <span className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></span>
-            <p className="text-xl lg:text-2xl mb-10">
-              We'll tell you what we think it's worth, free of cost.
-            </p>
-            <Link to="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
-              Get a Free Valuation
-            </Link>
-          </div>
-        </div>
-      </section>
+      <FreeValuationFooter />
     </main>
   )
 }
