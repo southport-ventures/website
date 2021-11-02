@@ -3,7 +3,6 @@ import FreeValuationFooter from "../components/free-valuation-footer"
 
 import SEO from "../components/seo"
 import BizIntelImage from "../images/biz-intel.jpg"
-import ScottPic from "../images/scott-profile.png"
 import TrevorPic from "../images/trevor-profile.png"
 import NicholasPic from "../images/nicholas-profile.png"
 
@@ -30,7 +29,7 @@ const BusinessIntelligence = () => {
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
           <p className="text-xl leading-normal">
-            We know the software, analytics, and data-driven businesses well.
+            We know software, analytics, and data-driven businesses well.
             We’ll take care of your customers and employees, invest in growing your business, and provide an outstanding outcome for you.
             <br/>
             <br/>
@@ -46,9 +45,6 @@ const BusinessIntelligence = () => {
             Who We Are
           </h2>
           <div className="border-b-2 border-blue-700 w-24 my-6 block mx-auto"></div>
-          <h3 className="font-sans text-3xl font-bold text-center">
-            Operators
-          </h3>
           <div className="md:grid md:grid-cols-2 md:gap-20 mt-5">
             <div className="mb-20 md:mb-0">
               <img className="mx-auto mt-10 mb-5" src={NicholasPic} alt="Nicholas Evans" />
@@ -84,29 +80,6 @@ const BusinessIntelligence = () => {
               </a>
             </div>
           </div>
-          <div className="border-b-2 border-blue-700 w-24 my-20 block mx-auto"></div>
-          <h3 className="font-sans text-3xl text-center">
-            Advisor
-          </h3>
-          <img className="mx-auto mt-10 mb-5" src={ScottPic} alt="Scott Stephenson" />
-          <h4 className="text-2xl font-sans text-center font-normal">Scott Stephenson</h4>
-          <p className="my-5 mx-auto lg:w-10/12">
-            Scott G. Stephenson is chairman, president, and chief executive officer of Verisk.
-            Verisk delivers data, analytics, and decision support services to customers in the insurance, natural resources, financial services, government, and risk management sectors.
-            Scott is a values-based leader who launched The Verisk Way—the company’s principles to serve, add value, and innovate that guide how Verisk engages with customers, employees, shareholders, and communities. Under his
-            leadership, Verisk has been named one of the World’s Best Employers, one of the World’s Most Innovative Companies, and one of America’s Best Employers for Women.
-            In 2008, Scott was appointed chief operating officer of Verisk. He was named company president in 2011, CEO in 2013, and chairman of the board in 2016.
-            Before joining Verisk, Scott was a senior partner with Boston Consulting Group. He also served as a senior advisor to Silver Lake Partners, a technology-oriented private equity firm.
-            <br/>
-            <br/>
-            <a href="https://www.linkedin.com/in/scottgstephenson/" target="_blank" rel="noreferrer" className="block">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                <g fill="#2867B2">
-                  <path d="M29.714 0L2.279 0C1.021 0 0 1.036 0 2.307L0 29.693C0 30.964 1.021 32 2.279 32L29.714 32C30.971 32 32 30.964 32 29.693L32 2.307C32 1.036 30.971 0 29.714 0ZM9.671 27.429L4.929 27.429 4.929 12.157 9.679 12.157 9.679 27.429 9.671 27.429ZM7.3 10.071C5.779 10.071 4.55 8.836 4.55 7.321 4.55 5.807 5.779 4.571 7.3 4.571 8.814 4.571 10.05 5.807 10.05 7.321 10.05 8.843 8.821 10.071 7.3 10.071ZM27.45 27.429L22.707 27.429 22.707 20C22.707 18.229 22.671 15.95 20.243 15.95 17.771 15.95 17.393 17.879 17.393 19.871L17.393 27.429 12.65 27.429 12.65 12.157 17.2 12.157 17.2 14.243 17.264 14.243C17.9 13.043 19.45 11.779 21.757 11.779 26.557 11.779 27.45 14.943 27.45 19.057L27.45 27.429Z"/>
-                </g>
-              </svg>
-            </a>
-          </p>
         </div>
       </section>
       <FreeValuationFooter />
