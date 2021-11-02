@@ -1,13 +1,14 @@
 import React from "react"
 import FreeValuationFooter from "../components/free-valuation-footer"
 
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BizIntelImage from "../images/biz-intel.jpg"
 import TrevorPic from "../images/trevor-profile.png"
 import NicholasPic from "../images/nicholas-profile.png"
 
-const BusinessIntelligence = () => {
-  return (
+const BusinessIntelligence = () => (
+  <Layout>
     <main>
       <SEO title="Business Intelligence" />
       <section className="govtech-bg-img bg-cover bg-center" style={{ backgroundImage: `url(${BizIntelImage})` }}>
@@ -84,7 +85,7 @@ const BusinessIntelligence = () => {
       </section>
       <FreeValuationFooter />
     </main>
-  )
-}
+  </Layout>
+)
 
 export default BusinessIntelligence
