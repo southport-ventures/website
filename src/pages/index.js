@@ -35,7 +35,7 @@ const IndexPage = () => (
       <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
       <div className="lg:w-9/12 mb-10">
         <p className="text-xl leading-normal">
-          We've grown our first acquisition 45% over the first nine months while continuing to run it at over 50% net profit margin. We seek out businesses that have balanced growth and profitably.
+          We've grown our first acquisition 45% over the first nine months while continuing to run it at over 50% net profit margin. We seek out businesses that have balanced growth and profitability.
         </p>
       </div>
     </section>
