@@ -18,7 +18,7 @@ const IndexPage = () => (
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
           <p className="text-xl lg:text-2xl mb-10 lg:w-8/12">
-            Southport Ventures buys profitable, mission-critical software businesses and accelerates their growth. We love B2B and B2G SaaS.
+            Southport Ventures buys profitable, mission-critical software businesses and accelerates their growth. We focus on B2B SaaS and GovTech.
           </p>
           <Link to="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
             Get In Touch
@@ -26,6 +26,18 @@ const IndexPage = () => (
         </div>
       </div>
       <img className="hidden md:block w-full h-24 object-none object-right-bottom" src={ContrastElement} alt="Contrast graphic" />
+    </section>
+
+    <section className="lg:container mx-auto my-20 lg:my-40 px-5 md:px-20">
+      <h2 className="text-3xl lg:text-4xl">
+        Track Record
+      </h2>
+      <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
+      <div className="lg:w-9/12 mb-10">
+        <p className="text-xl leading-normal">
+          We've grown our first acquisition 45% over the first nine months while continuing to run it at over 50% net profit margin. We seek out businesses that have balanced growth and profitably.
+        </p>
+      </div>
     </section>
 
     <section className="lg:container mx-auto md:mt-20 lg:my-40 md:px-20">
