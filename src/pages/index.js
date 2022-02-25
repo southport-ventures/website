@@ -6,6 +6,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SketchingTogether from "../images/sketching-together.jpg"
 import ContrastElement from "../images/contrast-element.png"
+import Q1PDF from "../../static/Southport Ventures Q1 2021 Newsletter.pdf"
+import Q2PDF from "../../static/Southport Ventures Q2 2021 Newsletter.pdf"
+import Q3PDF from "../../static/Southport Ventures Q3 2021 Newsletter.pdf"
+import Q4PDF from "../../static/Southport Ventures Q4 2021 Newsletter.pdf"
 
 const IndexPage = () => (
   <Layout>
@@ -35,7 +39,7 @@ const IndexPage = () => (
       <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
       <div className="lg:w-9/12 mb-10">
         <p className="text-xl leading-normal">
-          We've grown our first acquisition 45% over the first nine months while continuing to run it at over 50% net profit margin. We seek out businesses that have balanced growth and profitability.
+          We've grown our first acquisition 50% over the first ten months while continuing to run it at over 50% net profit margin. We seek out businesses that have balanced growth and profitability.
         </p>
       </div>
     </section>
