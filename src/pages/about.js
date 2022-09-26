@@ -19,7 +19,7 @@ const About = () => (
           <p className="text-xl md:text-2xl mb-10">
             We're software professionals with a passion for operational excellence.
           </p>
-          <p className="md:text-lg">
+          <p className="md:text-lg pb-5">
             Southport Ventures is a team of product and software development professionals looking to buy and operate great businesses.
             We obsess over standard operating procedures, product strategy, experimentation, and crafting the right tech stack.
             We enjoy talking about product, software engineering, and carefully crafted experiences over drilling owners on their financials.

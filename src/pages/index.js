@@ -22,7 +22,7 @@ const IndexPage = () => (
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
           <p className="text-xl lg:text-2xl mb-10 lg:w-8/12">
-            Southport Ventures buys profitable, mission-critical software businesses and accelerates their growth. We focus on B2B SaaS and GovTech.
+            Southport Ventures buys mission-critical, B2B software businesses and accelerates their growth.
           </p>
           <Link to="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
             Get In Touch
@@ -39,7 +39,7 @@ const IndexPage = () => (
       <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
       <div className="lg:w-9/12 mb-10">
         <p className="text-xl leading-normal">
-          We've grown our first acquisition 50% over the first year of ownership while continuing to run it at over 50% net profit margin. We particularly like businesses with a track record of balancing growth and profitability.
+          We've grown our first acquisition 50% over the first year of ownership while continuing to run it at well over 50% net profit margin.
         </p>
       </div>
     </section>
@@ -75,19 +75,19 @@ const IndexPage = () => (
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Track Record & Growth</h4>
           <p>
-            Three or more years of operational history and steady growth of at least 10% per year.
+            Three or more years of operational history and solid growth.
           </p>
         </div>
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Revenue & Profitability</h4>
           <p>
-            Profitable businesses with $500K to $5M in annual recurring revenue.
+            Businesses with $1M to $5M in ARR with high gross margin potential.
           </p>
         </div>
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Product & Churn</h4>
           <p>
-            Customers love your product and your revenue churn is below 10% per month.
+            Customers love the product and revenue churn less than 20%/year.
           </p>
         </div>
       </div>
