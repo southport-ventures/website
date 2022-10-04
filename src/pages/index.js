@@ -1,15 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-import FreeValuationFooter from "../components/free-valuation-footer"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SketchingTogether from "../images/sketching-together.jpg"
 import ContrastElement from "../images/contrast-element.png"
-import Q1PDF from "../../static/Southport Ventures Q1 2021 Newsletter.pdf"
-import Q2PDF from "../../static/Southport Ventures Q2 2021 Newsletter.pdf"
-import Q3PDF from "../../static/Southport Ventures Q3 2021 Newsletter.pdf"
-import Q4PDF from "../../static/Southport Ventures Q4 2021 Newsletter.pdf"
 
 const IndexPage = () => (
   <Layout>
@@ -18,11 +13,11 @@ const IndexPage = () => (
       <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap xl:items-center">
         <div className="w-100 md:w-75 px-5 py-20 md:px-20 md:pt-20 md:pb-0 xl:pt-32 xl:pb-11">
           <h1 className="text-4xl lg:text-5xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-            We buy and grow software businesses
+            We invest in and grow software businesses
           </h1>
           <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
           <p className="text-xl lg:text-2xl mb-10 lg:w-8/12">
-            Southport Ventures buys mission-critical, B2B software businesses and accelerates their growth.
+            Southport Ventures invests in mission-critical, B2B software businesses and accelerates their growth.
           </p>
           <Link to="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
             Get In Touch
@@ -39,7 +34,7 @@ const IndexPage = () => (
       <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
       <div className="lg:w-9/12 mb-10">
         <p className="text-xl leading-normal">
-          We've grown our first acquisition 50% over the first year of ownership while continuing to run it at well over 50% net profit margin.
+          We've grown our first investment 50% over the first year of ownership while continuing to run it at high profit margins.
         </p>
       </div>
     </section>
@@ -53,7 +48,7 @@ const IndexPage = () => (
           </h2>
           <span className="border-b-2 border-blue-400 w-24 my-6 block"></span>
           <p className="text-blue-100 text-xl leading-normal">
-            We know how to build great software. Years of product and engineering experience make us much more than just financial acquirers.
+            We know how to build great software. Years of product and engineering experience make us much more than just funding partners.
           </p>
         </div>
       </div>
@@ -64,13 +59,6 @@ const IndexPage = () => (
         Our Criteria
       </h2>
       <span className="border-b-2 border-blue-700 w-24 my-6 block"></span>
-      <div className="lg:w-9/12 mb-10">
-        <p className="text-xl leading-normal">
-          The rough bounds of what we look for.
-          Feel free to reach out even if your business doesn't fit these criteria.
-          We love building relationships with owners who might be looking to sell down the road.
-        </p>
-      </div>
       <div className="lg:grid lg:grid-cols-3 lg:gap-10">
         <div className="bg-white p-10 shadow-xl mb-10">
           <h4 className="text-xl mb-2">Track Record & Growth</h4>
@@ -96,21 +84,19 @@ const IndexPage = () => (
     <section className="bg-blue-700 text-white py-20 md:mt-20 xl:mt-40">
       <div className="lg:container mx-auto px-5 md:px-20">
         <h2 className="text-3xl lg:text-4xl text-blue-200">
-          Why Sell To Us?
+          Why Partner With Us?
         </h2>
         <span className="border-b-2 border-blue-400 w-24 my-6 block"></span>
         <div className="lg:w-9/12 mb-10">
           <p className="text-xl leading-normal text-blue-100">
-            We’ll take care of your customers and employees, invest in growing the business, and provide an outstanding outcome for you.
+            We’ll roll up our sleeves and help you invest in your product, evolve your org, and grow the business.
             <br/>
             <br/>
-            We're not a massive private equity firm with a drawn-out process that will waste months of your time.
-            We'll be clear in our communication, quick in our due diligence, and our partners will work closely with you to determine whether a sale makes sense.
+            We're not a bloated firm with a drawn-out process that will waste months of your time. We'll be clear in our communication, quick in our due diligence, and fair in our terms.
           </p>
         </div>
       </div>
     </section>
-    <FreeValuationFooter />
   </Layout>
 )
 

@@ -1,5 +1,4 @@
 import React from "react"
-import FreeValuationFooter from "../components/free-valuation-footer"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -83,7 +82,6 @@ const BusinessIntelligence = () => (
           </div>
         </div>
       </section>
-      <FreeValuationFooter />
     </main>
   </Layout>
 )

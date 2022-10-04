@@ -1,5 +1,4 @@
 import React from "react"
-import FreeValuationFooter from "../components/free-valuation-footer"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -20,21 +19,20 @@ const About = () => (
             We're software professionals with a passion for operational excellence.
           </p>
           <p className="md:text-lg pb-5">
-            Southport Ventures is a team of product and software development professionals looking to buy and operate great businesses.
+            Southport Ventures is a team of product and software development professionals looking to invest in and operate great businesses.
             We obsess over standard operating procedures, product strategy, experimentation, and crafting the right tech stack.
             We enjoy talking about product, software engineering, and carefully crafted experiences over drilling owners on their financials.
             We believe in accelerating growth through innovation, experimentation, and investing in people, not through cost cutting and financial gymnastics.
             <br/>
             <br/>
-            We have over 25 years of combined industry experience in SaaS, business process automation, and eCommerce, which gives us insight into which levers to pull to drive growth.
-            We are both private investors and allocating our own capital to Southport Ventures.
+            We have over years of experience in SaaS, building software, and operations, which gives us insight into which levers to pull to drive growth.
           </p>
         </div>
         <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 p-10 lg:p-20 md:ml-20">
-          <h2 className="text-6xl md:text-7xl text-blue-400">25</h2>
+          <h2 className="text-6xl md:text-7xl text-blue-400">27</h2>
           <p className="text-blue-100 text-xl pt-4">combined years of product & software experience</p>
           <h2 className="text-6xl md:text-7xl text-blue-400 mt-20">2</h2>
-          <p className="text-blue-100 text-xl pt-4">partners with skills ranging from product management, customer research, and UX to full stack software development</p>
+          <p className="text-blue-100 text-xl pt-4">partners with skills ranging from leadership, product management, customer research, and UX to full stack software development</p>
         </div>
       </div>
     </section>
@@ -87,7 +85,6 @@ const About = () => (
         </div>
       </div>
     </section>
-    <FreeValuationFooter />
   </Layout>
 )
 
